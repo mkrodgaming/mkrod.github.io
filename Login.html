@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+        <title>PAL</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="jscript.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+
+    <body class="body">
+        <div class="form">
+           <div class="label">
+               <label for="username" class="username"><b>USERNAME</b></label><br>
+                      <input name="username" type="email" id="username" placeholder="enter username"><br>
+               <label for="password" class="password"><b>PASSWORD</b></label><br>
+                   <input name="password" type="password" id="password" placeholder="enter password"><br>
+
+                      <input type="checkbox" id="show-password" onclick="showPassword()">
+               <label for="show-password"id="boxtag">Show Password</label><br>
+               
+                      <input type="checkbox" checked="checked" id="checkbox">
+               <label for="checkbox" id="boxtag">Remember Me</label><br>
+                      <button for="form" class="login" onclick="login()">Login</button><br>
+                      <p class="dha">Don't have an account? <a class="sign" href="Signup.html">Sign up</a></p>
+           </div>
+        </div>
+    </body>
+</html>
